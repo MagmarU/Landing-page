@@ -20,73 +20,79 @@
 
 <body>
 
-    <div class="popup_menu" hidden>
-        <nav class="popup_navbar container">
+    <div class="popup_menu popup_container" hidden>
+        <div class="popup_menu_wrapper container">
+            <nav class="popup_navbar">
 
-            <div class="popup_navbar_menu">
-                <a href=""><img class="popup_navbar_menu_button" src="./img/Combined Shape.png" alt=""></a>
-                <a href="#" class="popup_logo"><img src="./img/Logo.jpg" alt=""></a>
-            </div>
-
-            <div class="navbar_feedback">
-                <button class="feedback_button">
-                    Обратный звонок
-                </button>
-            </div>
-
-        </nav>
-        <div class="popup_navbar_wrapper container">
-            <ul class="popup_navbar_links">
-                <li><a href="">О компании</a></li>
-                <li><a href="">Продукция</a></li>
-                <li><a href="">Наши возможности</a></li>
-                <li><a href="">Контакты</a></li>
-                <li><a href="">8 (484) 399-34-73</a></li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="popup_feedback" hidden>
-        <div class="container">
-            <div class="popup_inner">
-                <div class="popup_wrapper">
-                    <img class="close_icon_image" src="./img/Close_icon.svg" alt="">
-                    <div class="feedback_popup_title">
-                        <p>ОСТАВЬТЕ ЗАЯВКУ, И НАШИ СПЕЦИАЛИСТЫ СВЯЖУТСЯ С ВАМИ</p>
-                        <span>* — обязательное поле</span>
-                    </div>
-                    <div class="feedback_popup_content">
-                        <form class="feedback_form" action="">
-                            <div class="col1">
-                                <div class="item">
-                                    <label for="">Ваше имя*</label>
-                                    <input class="feedback_input" type="text" name="">
-                                </div>
-
-                                <div class="item">
-                                    <label for="">Контактный номер телефона*</label>
-                                    <input class="feedback_input" type="text" name="">
-                                </div>
-                            </div>
-                            <div class="col2">
-                                <div class="item">
-                                    <label for="">Комментарий</label>
-                                    <input class="feedback_input" type="text" name="">
-                                </div>
-                                <button class="submit_button">Отправить</button>
-                            </div>
-
-
-                        </form>
-                        <p class="agreement">Оставляя данные, вы соглашаетесь с политикой конфиденциальности.</p>
-                    </div>
+                <div class="popup_navbar_menu">
+                    <a href=""><img class="popup_navbar_menu_button" src="./img/Combined Shape.png" alt=""></a>
+                    <a href="#" class="popup_logo"><img src="./img/Logo.jpg" alt=""></a>
                 </div>
 
+                <div class="navbar_feedback">
+                    <button class="feedback_button">
+                        Обратный звонок
+                    </button>
+                </div>
+
+            </nav>
+            <div class="popup_navbar_wrapper">
+                <ul class="popup_navbar_links">
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Продукция</a></li>
+                    <li><a href="">Наши возможности</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">8 (484) 399-34-73</a></li>
+                    <li><a href=""><button class="feedback_button">
+                                Обратный звонок
+                            </button></a></li>
+                </ul>
             </div>
+        </div>
+
+    </div>
+
+    <div class="popup_feedback_flex" hidden>
+        <div class="popup_feedback">
+            <div class="container">
+                <div class="popup_inner">
+                    <div class="popup_wrapper">
+                        <img class="close_icon_image" src="./img/Close_icon.svg" alt="">
+                        <div class="feedback_popup_title">
+                            <p>ОСТАВЬТЕ ЗАЯВКУ, И НАШИ СПЕЦИАЛИСТЫ СВЯЖУТСЯ С ВАМИ</p>
+                            <span>* — обязательное поле</span>
+                        </div>
+                        <div class="feedback_popup_content">
+                            <form class="feedback_form" action="">
+                                <div class="col1">
+                                    <div class="item">
+                                        <label for="">Ваше имя*</label>
+                                        <input class="feedback_input" type="text" name="">
+                                    </div>
+
+                                    <div class="item">
+                                        <label for="">Контактный номер телефона*</label>
+                                        <input class="feedback_input" type="text" name="">
+                                    </div>
+                                </div>
+                                <div class="col2">
+                                    <div class="item">
+                                        <label for="">Комментарий</label>
+                                        <input class="feedback_input" type="text" name="">
+                                    </div>
+                                    <button class="submit_button">Отправить</button>
+                                </div>
 
 
+                            </form>
+                            <p class="agreement">Оставляя данные, вы соглашаетесь с политикой конфиденциальности.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 
 
     <header>
